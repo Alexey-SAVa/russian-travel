@@ -9,4 +9,6 @@
   padding-inline-start: 0;
   padding-inline-end: 0;
   margin: 33px 0 0;
+  display: flex;
+  flex-direction: column;
 }
