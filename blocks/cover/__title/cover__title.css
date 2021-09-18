@@ -10,8 +10,13 @@
   padding-inline-start: 0;
   padding-inline-end: 0;
   margin: 0;
-  width: 560px;
-  position: absolute;
-  top: 245px;
-  z-index: 3;
+  max-width: 560px;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+  }
 }
