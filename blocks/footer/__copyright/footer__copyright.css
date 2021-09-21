@@ -10,8 +10,6 @@
   padding-inline-start: 0;
   padding-inline-end: 0;
   margin: 0;
-  position: absolute;
-  right: 0;
 }
 
 @media screen and (max-width: 767px) {
